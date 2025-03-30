@@ -51,3 +51,10 @@ This notebook demonstrates the process of hyperparameter tuning for three machin
 - Python 3.10
 - Libraries : `numpy`, `pandas`, `matplotlib`, `seaborn`, `scilit-learn`
 
+
+## key Takeaways
+- Logistic Regression performed well ( ~83.5% CV accuracy) with the given parameters.
+- SVM  performed well ( ~81.4%  accuracy ) with the given parameters.
+- K-NN performed well ( ~70.23%  accuracy ) with the given parameters.
+- Decisioin Tree performed well ( ~81.78%  accuracy ) with the given parameters.
+- Random Forest performed well (~84.73%  accuracy ) with the given parameters.
