@@ -45,7 +45,10 @@ This notebook demonstrates the process of hyperparameter tuning for three machin
 
 - Best Parameters found : `{'bootstrap':False,'class_weight':'balanced','criterion': 'gini','max_depth': 30', max_features':'log2',max_leaf_nodes': None',min_samples_leaf':3,'min_samples_split':4,'n_estimators': 50,'oob_score': False}`
 
-
+6. SGDClassifier
+   - parameters tuned : `loss`, `penalaty`, `alpha`, `l1_ratio`, `fit_intercept`, `max_iter`, `tol`, `shuffle`, `ela0`, `epsilon`, `n_iter_no_change`, `early_stopping`
+  
+   - Best Parameters found : `{'early_stopping' : False, 'fit_intercept' : False,'l1_ratio' : 0.15,'loss' : 'log_loss' , 'max_iter': 1000, 'n_iter_no_change': 10, 'n_jobs': -1, 'penalty': 'l2','shuffle': True,'tol': 0.001}`
 
 ## Dependencies
 - Python 3.10
@@ -58,3 +61,4 @@ This notebook demonstrates the process of hyperparameter tuning for three machin
 - K-NN performed well ( ~70.23%  accuracy ) with the given parameters.
 - Decisioin Tree performed well ( ~81.78%  accuracy ) with the given parameters.
 - Random Forest performed well (~84.73%  accuracy ) with the given parameters.
+- SGDClassifier perform well (~83.63  accuracy ) with the given parameters.
